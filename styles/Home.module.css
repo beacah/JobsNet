@@ -102,10 +102,12 @@ color: #4D4D4D;
   padding: 0px;
   
   position: absolute;
-  width: 160px;
-  height: 1200px;
+  width: 100px;
+  height: 30px;
   left: 1370px;
   top: 30px;
+  background: #F95C19;
+  border-radius: 5px;
 }
 
 .imageminicial {
@@ -138,7 +140,7 @@ transform: matrix(-0.89, 0.46, 0.46, 0.89, 0, 0)
 .forms {
 width: 423px;
 height: 49px;
-left: calc(50% - 423px/2 + 224.5px);
+left: 900;
 top: 3745px;
 background: linear-gradient(180deg, #FFF7E7 0%, #FFF1DC 100%);
 border: 2px solid #FFAF0F;
