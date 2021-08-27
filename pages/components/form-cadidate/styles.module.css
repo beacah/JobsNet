@@ -1,4 +1,26 @@
-.forms {
-  /* background: linear-gradient(180deg, #fff7e7 0%, #fff1dc 100%); */
-  border: 2px solid #ffaf0f;
+
+
+.forms, .forms2, .forms3
+{
+  margin-top: 3%;
+  margin-left: 6%;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  width: 600px;
+}
+
+.titulo1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 6%;
+}
+
+.botao {
+  font-family: Raleway;
+  width: 1000px;
+  height: 30px;
 }
