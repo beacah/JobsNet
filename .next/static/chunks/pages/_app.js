@@ -580,7 +580,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_next_dist_compiled_css_loader_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_next_dist_compiled_css_loader_api_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_next_dist_compiled_css_loader_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/next/dist/compiled/css-loader/getUrl.js */ "./node_modules/next/dist/compiled/css-loader/getUrl.js");
 /* harmony import */ var _node_modules_next_dist_compiled_css_loader_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_next_dist_compiled_css_loader_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _public_fundoefeito_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../public/fundoefeito.png */ "./public/fundoefeito.png?97a2");
+/* harmony import */ var _public_fundoefeito_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../public/fundoefeito.png */ "./public/fundoefeito.png");
 // Imports
 
 
@@ -606,7 +606,7 @@ module.exports=function(){"use strict";var e={91:function(e){e.exports=function(
 
 /***/ }),
 
-/***/ "./public/fundoefeito.png?97a2":
+/***/ "./public/fundoefeito.png":
 /*!********************************!*\
   !*** ./public/fundoefeito.png ***!
   \********************************/

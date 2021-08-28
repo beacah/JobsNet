@@ -1,14 +1,12 @@
 
 
-.forms, .forms2, .forms3
+.container
 {
-  margin-top: 3%;
   margin-left: 6%;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  width: 600px;
 }
 
 .titulo1 {
@@ -16,11 +14,9 @@
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
-  margin-left: 6%;
 }
 
 .botao {
   font-family: Raleway;
-  width: 1000px;
-  height: 30px;
+ top:6%;
 }
