@@ -31,7 +31,7 @@ export function CadidateForm() {
 
     console.log(bodyForm);
 
-    const res = await fetch("http://localhost:86/cadidate", {
+    const res = await fetch("https://jobs-net-api.herokuapp.com/cadidate", {
       // mode: "no-cors",
       body: bodyForm,
       headers: {
