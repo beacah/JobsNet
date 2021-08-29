@@ -52,12 +52,7 @@ export default function register() {
           <ul className="navbar-nav">
             <li className="nav-item active">
               <Link href="/">
-                <a className="nav-link">Home</a>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link href="/register">
-                <a className="nav-link">Cadastro</a>
+                <a className={`${styles.home2} nav-link`}>Home</a>
               </Link>
             </li>
           </ul>
@@ -69,23 +64,25 @@ export default function register() {
             <p className={styles.titulo1}>Ficha de cadastro:</p>
             <div className="row">
               <div className="col-3">
-                <label htmlFor="name">Nome:</label>
+                <label htmlFor="name">Nome<font color="#ff0000">*</font>:</label>
                 <input
                   type="text"
                   className="form-control"
                   placeholder="Digite o seu nome"
                   id="name"
                   name="name"
+                  required
                 ></input>
               </div>
               <div className="col-3">
-                <label htmlFor="email">Email:</label>
+                <label htmlFor="email">E-mail<font color="#ff0000">*</font>:</label>
                 <input
                   type="email"
                   className="form-control"
                   id="email"
                   placeholder="Digite o seu e-mail"
                   name="email"
+                  required
                 ></input>
               </div>
               <div className="col-3">
@@ -99,29 +96,31 @@ export default function register() {
                 ></input>
               </div>
               <div className="col-3">
-                <label f="telefone">Data de nascimento:</label>
+                <label f="telefone">Data de nascimento<font color="#ff0000">*</font>:</label>
                 <input
                   type="date"
                   className="form-control"
                   id="bDay"
                   placeholder="DD/MM/AAAA"
                   name="bDay"
+                  required
                 ></input>
               </div>
             </div>
             <div className="row">
               <div className="col-3">
-                <label f="sexo">Gênero:</label>
+                <label f="sexo">Gênero<font color="#ff0000">*</font>:</label>
                 <input
                   type="sexo"
                   className="form-control"
                   id="gender"
                   placeholder="Digite seu gênero"
                   name="gender"
+                  required
                 ></input>
               </div>
               <div className="col-3">
-                <label f="cpf">CPF:</label>
+                <label f="cpf">CPF<font color="#ff0000">*</font>:</label>
                 <input
                   type="cpf"
                   className="form-control"
@@ -132,13 +131,14 @@ export default function register() {
                 ></input>
               </div>
               <div className="col-3">
-                <label htmlFor="inputAddress">Cargo desejado:</label>
+                <label htmlFor="inputAddress">Cargo desejado<font color="#ff0000">*</font>:</label>
                 <input
                   type="text"
                   className="form-control"
                   id="inputAddress"
-                  placeholder="Digite seu cargo dos sohos"
+                  placeholder="Digite seu cargo dos sonhos"
                   name="intendedPosition"
+                  required
                 ></input>
               </div>
               <div className="col-3">
@@ -153,13 +153,14 @@ export default function register() {
             </div>
             <div className="row">
               <div className="col-8">
-                <label htmlFor="inputAddress">Endereço:</label>
+                <label htmlFor="inputAddress">Endereço<font color="#ff0000">*</font>:</label>
                 <input
                   type="text"
                   className="form-control"
                   id="addr"
                   placeholder="Rua dos Bobos, nº 0"
                   name="addr"
+                  required
                 ></input>
               </div>
               <div className="col-4">
@@ -173,34 +174,39 @@ export default function register() {
               </div>
               <div className="row">
                 <div className="col-3">
-                  <label htmlFor="inputCity">Cidade:</label>
+                  <label htmlFor="inputCity">Cidade<font color="#ff0000">*</font>:</label>
                   <input
                     type="text"
                     className="form-control"
                     id="city"
                     name="city"
+                    required
                   ></input>
                 </div>
                 <div className="col-3">
-                  <label htmlFor="inputEstado">Estado</label>
+                  <label htmlFor="inputEstado">Estado<font color="#ff0000">*</font>:</label>
                   <select id="state" name="state" className="form-control">
                     <option selected>Escolher...</option>
                     <option>SP</option>
                     <option>RJ</option>
+                    <input
+                    required
+                  ></input>
                   </select>
                 </div>
                 <div className="col-3">
-                  <label htmlFor="inputCEP">CEP:</label>
+                  <label htmlFor="inputCEP">CEP<font color="#ff0000">*</font>:</label>
                   <input
                     type="text"
                     className="form-control"
                     id="zipCode"
                     name="zipCode"
+                    required
                   ></input>
                 </div>
                 <div className="col-3">
-                  <button type="submit" className="btn btn-dark mb-3">
-                    Submit
+                  <button type="submit" className={`${styles.botao} btn btn-dark mb-3`}>
+                    Enviar
                   </button>
                 </div>
               </div>

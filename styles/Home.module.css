@@ -5,7 +5,7 @@
 .title {
   margin-top: 30%;
   margin-left: 10%;
-  font-family: Raleway;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48.83px;
@@ -16,7 +16,7 @@
 
 .subtitlehome {
   padding-left: 10%;
-  font-family: Raleway;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -40,31 +40,31 @@
 
 .botaohome {
   padding-left: 10%;
-  font-family: Raleway;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
+  font-size: 90px;
   line-height: 60%;
   text-align: absolute;
         left: 100%;
         top: 100%;
-        margin-left:-82px;
-        margin-top:-270px;
+        margin-left:-67px;
+        margin-top:-290px;
 
   color: #4d4d4d;
 }
 
-.navbar:hover {
+.home:hover {
   color: #f95c19;
 }
 
-.nav-link {
-  font-family: Raleway;
+.home {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  left:50%
+  margin-left:67px;
 }
 
 .botaohome {

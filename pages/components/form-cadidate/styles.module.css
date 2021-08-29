@@ -5,13 +5,32 @@
 }
 
 .titulo1 {
-  font-family: Raleway;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
 }
 
 .botao {
-  font-family: Raleway;
- top:6%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  top:50%;
+  font-size: 15px;
+  text-align: absolute;
+        left: 100%;
+        top: 100%;
+        margin-left: 65px;
+        margin-top: 24px;
+}
+
+.home2:hover {
+  color: #f95c19;
+}
+
+.home2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left:67px;
 }

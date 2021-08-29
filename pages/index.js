@@ -20,7 +20,7 @@ export default function Home() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <a className="nav-link" href="#register">
-              <p className={styles.home}>Home</p>
+              <p className={`${styles.home}`}>Home</p>
             </a>
           </ul>
         </div>
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.botaohome}>
+        <div className={`${styles.botaohome}`}>
           <Link href="/register">
             <button type="button" className="btn btn-outline-dark">
               Cadastro
